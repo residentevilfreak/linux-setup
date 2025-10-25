@@ -30,7 +30,7 @@ this repository holds whatever i use for setting up my linux installs. it's buil
     | **fedora** (kde) | `bash kde.sh` |
     | **arch linux** | `bash arch.sh` 
    
-## gnome configuration
+## fedora configuration
 
 > do this before running kde.sh
 
@@ -60,9 +60,10 @@ this repository holds whatever i use for setting up my linux installs. it's buil
     sudo dnf install -y git 
     ```
 
-## arch configuration
+## kde configuration
 
 ### behavior
+- configure scrollback konsole
 - configure spectacle's screenshot settings
 - change the show desktop widget to minimize all windows
 - add the music presence app to autostart
