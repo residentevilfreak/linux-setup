@@ -32,7 +32,28 @@ this repository holds whatever i use for setting up my linux installs. it's buil
    
 ## gnome configuration
 
-**yet to be added**
+> do this before running kde.sh
+
+1.  **enable rpmfusion repos**
+
+    ```bash
+    sudo dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm -y
+    sudo dnf install https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm -y
+    ```
+
+2.  **update system & reboot**
+
+    ```bash
+    sudo dnf update -y
+    sudo reboot
+    ```
+    
+3.  **install drivers**
+
+    ```bash
+    sudo dnf install -y akmod-nvidia 
+    sudo dnf install -y xorg-x11-drv-nvidia-cuda nvidia-settings
+    ```
 
 ## arch configuration
 
