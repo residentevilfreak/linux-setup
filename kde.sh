@@ -16,7 +16,10 @@ mangohud
 gamemode
 )
 
-sudo dnf install "${DNF_PKGS[@]}"         
+sudo dnf install "${DNF_PKGS[@]}"   
+
+flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+flatpak install flathub com.discordapp.Discord com.surfshark.Surfshark com.spotify.Client
 
 sudo sed -i \
 -e 's/^GRUB_TIMEOUT=.*/GRUB_TIMEOUT=-1/' \
