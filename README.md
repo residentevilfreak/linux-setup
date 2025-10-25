@@ -54,6 +54,11 @@ this repository holds whatever i use for setting up my linux installs. it's buil
     sudo dnf install -y akmod-nvidia 
     sudo dnf install -y xorg-x11-drv-nvidia-cuda nvidia-settings
     ```
+4.  **install git**
+
+    ```bash
+    sudo dnf install -y git 
+    ```
 
 ## arch configuration
 
