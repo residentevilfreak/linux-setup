@@ -10,7 +10,7 @@ PACMAN_PKGS=(
   ark dolphin kate kio-admin konsole packagekit-qt6 noto-fonts
   noto-fonts-emoji fastfetch nano fish unrar firefox mpv gparted gwenview 
   filelight filezilla obs-studio qbittorrent bitwarden steam lutris
-  wine mangohud gamemode nvidia-settings
+  wine mangohud gamemode 
 )
 
 sudo pacman -S --needed "${PACMAN_PKGS[@]}"
