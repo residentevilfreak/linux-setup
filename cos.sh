@@ -20,7 +20,7 @@ vlc
 sudo pacman -Syu --needed "${PACMAN_PKGS[@]}"
 
 flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
-flatpak install flathub com.bitwarden.desktop com.surfshark.Surfshark com.obsproject.Studio com.discordapp.Discord
+flatpak install flathub com.bitwarden.desktop com.surfshark.Surfshark com.obsproject.Studio com.discordapp.Discord com.spotify.Client
 
 sudo sed -i \
 -e 's/^GRUB_TIMEOUT=.*/GRUB_TIMEOUT=-1/' \
