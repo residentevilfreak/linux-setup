@@ -26,6 +26,7 @@ this repository holds whatever i use for setting up my linux installs. it's buil
 
     | System | Command |
     | :--- | :--- |
+    | **opensuse tw** | `bash tw.sh` |
     | **fedora** (gnome) | `bash gnome.sh` |
     | **fedora** (kde) | `bash kde.sh` |
     | **arch linux** | `bash arch.sh` 
