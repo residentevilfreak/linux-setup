@@ -29,6 +29,7 @@ this repository holds whatever i use for setting up my linux installs. it's buil
     | **opensuse tw** | `bash tw.sh` |
     | **fedora** (gnome) | `bash gnome.sh` |
     | **fedora** (kde) | `bash kde.sh` |
+    | **cachyos** | `bash cos.sh` |
     | **arch linux** | `bash arch.sh` 
    
 ## fedora configuration
