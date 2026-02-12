@@ -15,6 +15,7 @@ mangohud
 goverlay
 gamemode
 vlc
+ntfs-3g
 )
 
 sudo pacman -Syu --needed "${PACMAN_PKGS[@]}"
