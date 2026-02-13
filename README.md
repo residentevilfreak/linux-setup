@@ -72,6 +72,7 @@ this repository holds whatever i use for setting up my linux installs. it's buil
 
 ### hardware (pc)
 - disable cursor acceleration
+- lower cursor speed
 - configure power management
 
 ### hardware (laptop)
