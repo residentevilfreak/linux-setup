@@ -93,8 +93,3 @@ this repository holds whatever i use for setting up my linux installs. it's buil
 - customize the panel
 - customize the desktop
 - apply an sddm theme
-
-## other apps to install
-
-- mudfish
-
