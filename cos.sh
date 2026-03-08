@@ -2,7 +2,7 @@
 
 exec < /dev/tty
 
-echo "=== opensuse setup script ==="
+echo "=== cachyOS setup script ==="
 
 PACMAN_PKGS=(
 flatpak
