@@ -8,6 +8,7 @@ PACMAN_PKGS=(
 flatpak
 filezilla
 qbittorrent
+protonup-qt
 steam
 lutris
 wine
@@ -21,7 +22,7 @@ ntfs-3g
 sudo pacman -Syu --needed "${PACMAN_PKGS[@]}"
 
 flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
-flatpak install flathub com.bitwarden.desktop com.surfshark.Surfshark com.obsproject.Studio com.discordapp.Discord com.spotify.Client app.zen_browser.zen com.usebottles.bottles
+flatpak install flathub com.bitwarden.desktop com.obsproject.Studio com.discordapp.Discord com.spotify.Client app.zen_browser.zen com.usebottles.bottles
 
 paru -S music-presence-bin
 
