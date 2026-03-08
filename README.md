@@ -30,7 +30,8 @@ this repository holds whatever i use for setting up my linux installs. it's buil
     | **fedora** (gnome) | `bash gnome.sh` |
     | **fedora** (kde) | `bash kde.sh` |
     | **cachyos** | `bash cos.sh` |
-    | **arch linux** | `bash arch.sh` 
+    | **arch linux** | `bash arch.sh` |
+    | **debian** | `bash deb.sh` 
    
 ## fedora configuration
 
