@@ -1,6 +1,7 @@
 software:
   [] install vencord: sh -c "$(curl -sS https://vencord.dev/install.sh)" 
   [] install mudfish
+  [] install music presence
 
 kde configuration
   behavior
