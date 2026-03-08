@@ -14,6 +14,7 @@ qbittorrent
 steam-installer
 lutris
 wine
+wine32
 mangohud
 goverlay
 gamemode
