@@ -5,7 +5,7 @@ exec < /dev/tty
 echo "=== debian 13 setup script ==="
 
 # update system 
-sudo apt update
+sudo apt update -y
 
 # standard packages 
 APT_PKGS=(
