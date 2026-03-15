@@ -5,7 +5,7 @@ exec < /dev/tty
 echo "=== debian 13 setup script ==="
 
 # update system 
-sudo apt update -y
+sudo apt update && sudo apt upgrade -y
 
 # standard packages 
 APT_PKGS=(
@@ -37,7 +37,7 @@ flatpak install -y flathub \
   com.protonvpn.www
 
 # configure GRUB
-echo "GRUB_DISABLE_OS_PROBER=false" | sudo tee -a /etc/default/grub
+sudo sed -i -e 's/.*GRUB_DISABLE_OS_PROBER.*/GRUB_DISABLE_OS_PROBER=false/' /etc/default/grub
 sudo sed -i -e 's/^GRUB_TIMEOUT=.*/GRUB_TIMEOUT=-1/' /etc/default/grub
 sudo update-grub
 
@@ -54,6 +54,7 @@ end
 set fish_greeting
 
 alias fetch='fastfetch'
+alias update='sudo apt update && sudo apt upgrade -y && flatpak update -y'
 EOF
 
 echo "=== setup complete! ==="
