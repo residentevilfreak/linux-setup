@@ -18,6 +18,8 @@ APT_PKGS=(
   fastfetch
   plasma-discover-backend-flatpak
   power-profiles-daemon
+  os-prober
+  kio-admin
 )
 
 # install standard packages
@@ -35,6 +37,7 @@ flatpak install -y flathub \
   com.protonvpn.www
 
 # configure GRUB
+echo "GRUB_DISABLE_OS_PROBER=false" | sudo tee -a /etc/default/grub
 sudo sed -i -e 's/^GRUB_TIMEOUT=.*/GRUB_TIMEOUT=-1/' /etc/default/grub
 sudo update-grub
 
