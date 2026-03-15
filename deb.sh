@@ -22,7 +22,7 @@ sudo apt install "${APT_PKGS[@]}" -y
 
 # install flatpaks
 flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
-flatpak install -y --noninteractive flathub \
+flatpak install -y flathub \
   com.bitwarden.desktop \
   com.obsproject.Studio \
   com.discordapp.Discord \
