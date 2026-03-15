@@ -8,15 +8,10 @@ PACMAN_PKGS=(
 flatpak
 filezilla
 qbittorrent
-protonup-qt
-steam
-lutris
-wine
-mangohud
-goverlay
-gamemode
 vlc
 ntfs-3g
+cachyos-gaming-meta
+cachyos-gaming-applications
 )
 
 sudo pacman -Syu --needed "${PACMAN_PKGS[@]}"
