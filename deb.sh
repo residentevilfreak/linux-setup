@@ -4,6 +4,9 @@ exec < /dev/tty
 
 echo "=== debian 13 setup script ==="
 
+# update system 
+sudo apt update
+
 # standard packages 
 APT_PKGS=(
   fish
@@ -28,7 +31,6 @@ flatpak install -y flathub \
   com.discordapp.Discord \
   com.spotify.Client \
   app.zen_browser.zen \
-  com.usebottles.bottles \
   com.valvesoftware.Steam \
   com.protonvpn.www
 
