@@ -16,8 +16,19 @@ cachyos-gaming-applications
 
 sudo pacman -Syu --needed "${PACMAN_PKGS[@]}"
 
+read -p "do you want to install cinnamon packages? (y/n): " INSTALL_CINNAMON
+if [[ "$INSTALL_CINNAMON" =~ ^[Yy]$ ]]; then
+    echo "installing cinnamon packages..."
+    CINNAMON_PKGS=(
+        flameshot
+    )
+    sudo pacman -S --needed "${CINNAMON_PKGS[@]}"
+else
+    echo "skipping cinnamon packages."
+fi
+
 flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
-flatpak install flathub com.bitwarden.desktop com.obsproject.Studio com.discordapp.Discord com.spotify.Client app.zen_browser.zen com.usebottles.bottles
+flatpak install flathub com.bitwarden.desktop com.obsproject.Studio com.discordapp.Discord com.spotify.Client
 
 paru -S music-presence-bin
 
