@@ -16,6 +16,11 @@ cachyos-gaming-applications
 
 sudo pacman -Syu --needed "${PACMAN_PKGS[@]}"
 
+flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
+flatpak install flathub com.bitwarden.desktop com.obsproject.Studio com.discordapp.Discord com.spotify.Client
+
+paru -S music-presence-bin
+
 read -p "do you want to install cinnamon packages? (y/n): " INSTALL_CINNAMON
 if [[ "$INSTALL_CINNAMON" =~ ^[Yy]$ ]]; then
     echo "installing cinnamon packages..."
@@ -23,17 +28,14 @@ if [[ "$INSTALL_CINNAMON" =~ ^[Yy]$ ]]; then
         flameshot
     )
     sudo pacman -S --needed "${CINNAMON_PKGS[@]}"
+    flatpak install flathub io.github.peazip.PeaZip
 else
     echo "skipping cinnamon packages."
 fi
 
-flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
-flatpak install flathub com.bitwarden.desktop com.obsproject.Studio com.discordapp.Discord com.spotify.Client
-
-paru -S music-presence-bin
-
 sudo sed -i \
 -e 's/^GRUB_TIMEOUT=.*/GRUB_TIMEOUT=-1/' \
+-e 's/^#*GRUB_DISABLE_OS_PROBER=.*/GRUB_DISABLE_OS_PROBER=false/' \
 /etc/default/grub
 sudo grub-mkconfig -o /boot/grub/grub.cfg
 
