@@ -21,7 +21,7 @@ cachyos-gaming-applications
 sudo pacman -Syu --needed "${PACMAN_PKGS[@]}"
 
 flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
-flatpak install flathub com.obsproject.Studio com.discordapp.Discord com.spotify.Client com.protonvpn.www
+flatpak install flathub com.obsproject.Studio com.discordapp.Discord com.spotify.Client 
 
 paru -S music-presence-bin
 
