@@ -24,6 +24,8 @@ this repository holds whatever i use for setting up my linux installs. it's buil
 
     then, run the desired script:
 
+    > adjust scrollback in konsole before running cos.sh
+
     | System | Command |
     | :--- | :--- |
     | **opensuse tw** | `bash tw.sh` |
