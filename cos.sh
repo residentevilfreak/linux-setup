@@ -5,11 +5,10 @@ exec < /dev/tty
 echo "=== cachyOS setup script ==="
 
 PACMAN_PKGS=(
-flatpak
+vlc
 filezilla
 qbittorrent
-proton-vpn-gtk-app
-vlc
+flatpak
 ntfs-3g
 cachyos-gaming-meta
 cachyos-gaming-applications
@@ -18,7 +17,7 @@ cachyos-gaming-applications
 sudo pacman -Syu --needed "${PACMAN_PKGS[@]}"
 
 flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
-flatpak install flathub com.obsproject.Studio com.discordapp.Discord com.spotify.Client
+flatpak install flathub com.obsproject.Studio com.discordapp.Discord com.spotify.Client com.protonvpn.www
 
 paru -S music-presence-bin
 
