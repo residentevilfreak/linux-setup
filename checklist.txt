@@ -32,6 +32,7 @@ appearance
   [] customize the panel
   [] customize the desktop
   [] apply an sddm theme
+  [] change application launcher icon
 
 misc:
   [] configure permissions in .ssh folder: cd ~/.ssh && chmod 600 id_ed25519 && chmod 644 id_ed25519.pub
