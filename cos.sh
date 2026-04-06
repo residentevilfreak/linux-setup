@@ -9,6 +9,7 @@ vlc
 filezilla
 qbittorrent
 mullvad-vpn
+prismlauncher
 flatpak
 ntfs-3g
 protonup-qt
