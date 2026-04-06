@@ -19,7 +19,7 @@ hardware (laptop)
   [] reduce the touchpad's scroll speed for better control
 
 appearance
-  [] set the global display scale to 90%
+  [] change the global display scale
   [] edit the application menu to hide unwanted entries
   [] customize the cursor
   [] set a user profile picture
