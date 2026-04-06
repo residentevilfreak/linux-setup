@@ -8,7 +8,7 @@ PACMAN_PKGS=(
 vlc
 filezilla
 qbittorrent
-proton-vpn-gtk-app
+mullvad-vpn
 flatpak
 ntfs-3g
 cachyos-gaming-meta
