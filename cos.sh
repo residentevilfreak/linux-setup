@@ -11,6 +11,7 @@ qbittorrent
 mullvad-vpn
 flatpak
 ntfs-3g
+protonup-qt
 cachyos-gaming-meta
 cachyos-gaming-applications
 )
