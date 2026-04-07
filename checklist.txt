@@ -2,6 +2,7 @@ software:
   [] install vencord: sh -c "$(curl -sS https://vencord.dev/install.sh)" 
   [] install mudfish: chmod +x mudfish.sh && sudo ./mudfish.sh
   [] install music presence
+  [] install aurora
 
 kde configuration
   behavior
