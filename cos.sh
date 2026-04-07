@@ -20,18 +20,18 @@ cachyos-gaming-applications
 sudo pacman -Syu --needed "${PACMAN_PKGS[@]}"
 
 flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
-flatpak install flathub com.obsproject.Studio com.discordapp.Discord com.spotify.Client 
+flatpak install -y flathub com.obsproject.Studio com.discordapp.Discord com.spotify.Client
 
-paru -S music-presence-bin
+paru -S --noconfirm music-presence-bin
 
-read -p "do you want to install cinnamon packages? (y/n): " INSTALL_CINNAMON
+read -p "do you want to install cinnamon packages? (y/N): " INSTALL_CINNAMON
 if [[ "$INSTALL_CINNAMON" =~ ^[Yy]$ ]]; then
     echo "installing cinnamon packages..."
     CINNAMON_PKGS=(
         flameshot
     )
     sudo pacman -S --needed "${CINNAMON_PKGS[@]}"
-    flatpak install flathub io.github.peazip.PeaZip
+    flatpak install -y flathub io.github.peazip.PeaZip
 else
     echo "skipping cinnamon packages."
 fi
