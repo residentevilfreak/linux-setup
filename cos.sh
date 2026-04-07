@@ -45,4 +45,6 @@ sudo grub-mkconfig -o /boot/grub/grub.cfg
 sudo systemctl start mullvad-daemon
 sudo systemctl enable mullvad-daemon
 
+mkdir -p ~/Desktop/{games,tools,other}
+
 echo "=== setup complete! ==="
