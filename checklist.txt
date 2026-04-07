@@ -33,7 +33,7 @@ appearance
   [] customize the desktop
   [] apply an sddm theme
   [] change application launcher icon
-  [] change task switcher to thumbnail grid
+  [] customize the task switcher
 
 misc:
   [] configure permissions in .ssh folder: cd ~/.ssh && chmod 600 id_ed25519 && chmod 644 id_ed25519.pub
