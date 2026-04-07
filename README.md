@@ -19,7 +19,7 @@ this repository holds whatever i use for setting up my linux installs. it's buil
     change into the directory
 
     ```bash
-    cd ~/Desktop/linux-setup
+    cd ~/Desktop/setup
     ```
 
     then, run the desired script:
