@@ -11,7 +11,7 @@ this repository holds whatever i use for setting up my linux installs. it's buil
 1.  **clone the repo**
 
     ```bash
-    git clone https://github.com/residentevilfreak/linux-setup ~/Desktop/linux-setup
+    git clone https://github.com/residentevilfreak/linux-setup ~/Desktop/setup
     ```
 
 2.  **run the scripts**
