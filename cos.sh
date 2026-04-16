@@ -22,7 +22,9 @@ sudo pacman -Syu --needed "${PACMAN_PKGS[@]}"
 flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
 flatpak install -y flathub com.obsproject.Studio com.discordapp.Discord com.spotify.Client
 
-paru -S --noconfirm music-presence-bin
+paru -S --noconfirm music-presence-bin 
+
+paru -S polychromatic
 
 read -p "do you want to install cinnamon packages? (y/N): " INSTALL_CINNAMON
 if [[ "$INSTALL_CINNAMON" =~ ^[Yy]$ ]]; then
@@ -46,5 +48,7 @@ sudo systemctl start mullvad-daemon
 sudo systemctl enable mullvad-daemon
 
 mkdir -p ~/Desktop/{games,tools,other}
+
+sudo gpasswd -a $USER openrazer
 
 echo "=== setup complete! ==="
