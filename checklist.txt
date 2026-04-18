@@ -10,6 +10,7 @@ kde configuration
   [] configure spectacle's screenshot settings
   [] change the show desktop widget to minimize all windows
   [] add the music presence app to autostart
+  [] configure dolphin
 
 hardware (pc)
   [] disable cursor acceleration
