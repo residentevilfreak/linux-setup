@@ -9,6 +9,7 @@ vlc
 kweather
 gnome-maps
 marknote
+brave-bin
 filezilla
 qbittorrent
 mullvad-vpn
