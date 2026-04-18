@@ -55,4 +55,8 @@ mkdir -p ~/Desktop/{games,tools,other}
 
 sudo gpasswd -a $USER openrazer
 
+wpctl settings --save bluetooth.autoswitch-to-headset-profile false
+
+systemctl --user restart wireplumber
+
 echo "=== setup complete! ==="
