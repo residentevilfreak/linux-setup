@@ -8,7 +8,6 @@ PACMAN_PKGS=(
 vlc
 kweather
 gnome-maps
-marknote
 brave-bin
 filezilla
 qbittorrent
@@ -24,7 +23,7 @@ cachyos-gaming-applications
 sudo pacman -Syu --needed "${PACMAN_PKGS[@]}"
 
 flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
-flatpak install -y flathub com.obsproject.Studio com.discordapp.Discord com.spotify.Client
+flatpak install -y flathub com.obsproject.Studio com.discordapp.Discord com.spotify.Client org.kde.marknote com.github.tchx84.Flatseal
 
 paru -S --noconfirm music-presence-bin 
 
