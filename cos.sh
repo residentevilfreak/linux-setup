@@ -6,6 +6,9 @@ echo "=== cachyOS setup script ==="
 
 PACMAN_PKGS=(
 vlc
+kweather
+gnome-maps
+marknote
 filezilla
 qbittorrent
 mullvad-vpn
