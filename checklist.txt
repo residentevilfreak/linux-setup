@@ -12,6 +12,7 @@ kde configuration
   [] add the music presence app to autostart
   [] configure dolphin
   [] pass `--disable-features=WaylandFractionalScaleV1` to all apps that have poor 95% scaling
+  [] configure notification settings
 
 hardware (pc)
   [] disable cursor acceleration
@@ -37,6 +38,7 @@ appearance
   [] apply an sddm theme
   [] change application launcher icon
   [] customize the task switcher
+  [] set app icons
 
 misc:
   [] configure permissions in .ssh folder: cd ~/.ssh && chmod 600 id_ed25519 && chmod 644 id_ed25519.pub
