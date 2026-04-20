@@ -17,6 +17,7 @@ kde configuration
 hardware (pc)
   [] disable cursor acceleration
   [] configure power management
+  [] disable touchpad
 
 hardware (laptop)
   [] invert the touchpad scroll direction for natural scrolling
