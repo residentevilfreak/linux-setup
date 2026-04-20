@@ -11,6 +11,7 @@ kde configuration
   [] change the show desktop widget to minimize all windows
   [] add the music presence app to autostart
   [] configure dolphin
+  [] pass `--disable-features=WaylandFractionalScaleV1` to all apps that have poor 95% scaling
 
 hardware (pc)
   [] disable cursor acceleration
