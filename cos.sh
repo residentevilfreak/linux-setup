@@ -8,7 +8,6 @@ PACMAN_PKGS=(
 vlc
 kweather
 gnome-maps
-brave-bin
 filezilla
 qbittorrent
 prismlauncher
