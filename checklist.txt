@@ -6,7 +6,7 @@ software:
 
 kde configuration
   behavior
-  [] configure scrollback konsole
+  [] configure konsole
   [] configure spectacle's screenshot settings
   [] change the show desktop widget to minimize all windows
   [] add the music presence app to autostart
