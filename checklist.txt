@@ -15,7 +15,7 @@ kde configuration
   [] configure notification settings
 
 hardware (pc)
-  [] disable cursor acceleration
+  [] adjust pointer speed
   [] configure power management
   [] disable touchpad
 
