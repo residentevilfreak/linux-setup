@@ -13,6 +13,7 @@ qbittorrent
 prismlauncher
 flatpak
 ntfs-3g
+gamemode
 protonup-qt
 cachyos-gaming-meta
 cachyos-gaming-applications
