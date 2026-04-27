@@ -6,6 +6,8 @@ echo "=== cachyOS setup script ==="
 
 PACMAN_PKGS=(
 vlc
+discord
+vesktop
 kweather
 gnome-maps
 filezilla
@@ -22,7 +24,7 @@ cachyos-gaming-applications
 sudo pacman -Syu --needed "${PACMAN_PKGS[@]}"
 
 flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
-flatpak install -y flathub com.obsproject.Studio com.discordapp.Discord dev.vencord.Vesktop com.spotify.Client org.kde.marknote com.github.tchx84.Flatseal app.zen_browser.zen
+flatpak install -y flathub com.obsproject.Studio com.spotify.Client org.kde.marknote com.github.tchx84.Flatseal app.zen_browser.zen
 
 paru -S --noconfirm music-presence-bin amneziavpn-bin betterbird-bin
 
