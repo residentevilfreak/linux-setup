@@ -48,9 +48,6 @@ sudo sed -i \
 /etc/default/grub
 sudo grub-mkconfig -o /boot/grub/grub.cfg
 
-sudo systemctl start mullvad-daemon
-sudo systemctl enable mullvad-daemon
-
 mkdir -p ~/Desktop/{games,tools,other}
 
 sudo gpasswd -a $USER openrazer
