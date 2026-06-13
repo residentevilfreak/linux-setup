@@ -1,0 +1,86 @@
+================================================================
+cherax loader on cachyOS / steam gta v
+================================================================
+
+gta v steam app id: 271590
+
+put CheraxLoader.exe wherever you want.
+example of my path used below:
+
+$HOME/Desktop/Tools/Cherax/CheraxLoader.exe
+
+
+================================================================
+MUST!!!
+================================================================
+
+add segoeui.ttf to the gta v Proton prefix fonts folder.
+
+common steam prefix locations:
+
+$HOME/.steam/steam/steamapps/compatdata/271590/pfx/drive_c/windows/Fonts/
+
+or:
+
+$HOME/.local/share/Steam/steamapps/compatdata/271590/pfx/drive_c/windows/Fonts/
+
+
+================================================================
+option 1 - easiest way
+================================================================
+
+right click CheraxLoader.exe.
+
+open with:
+
+Protontricks Launcher
+
+then select:
+
+gta v / 271590
+
+if Protontricks Launcher does not show up, run this once:
+
+    protontricks-desktop-install
+
+
+================================================================
+option 2 - launch from terminal
+================================================================
+
+template:
+
+    protontricks-launch --appid 271590 "path/to/CheraxLoader.exe"
+
+example:
+
+    protontricks-launch --appid 271590 "$HOME/Desktop/Tools/Cherax/CheraxLoader.exe"
+
+
+================================================================
+option 3 - make a desktop shortcut
+================================================================
+
+replace the placeholder path in the first line with your actual loader path.
+
+copy this:
+
+CHERAX_LOADER="$HOME/Desktop/Tools/Cherax/CheraxLoader.exe"
+
+cat > "$HOME/Desktop/CheraxLoader.desktop" <<EOF
+[Desktop Entry]
+Type=Application
+Name=Cherax Loader
+Exec=protontricks-launch --appid 271590 "$CHERAX_LOADER"
+Icon=applications-games
+Terminal=false
+Categories=Game;
+StartupNotify=true
+EOF
+
+chmod +x "$HOME/Desktop/CheraxLoader.desktop"
+
+
+after making the shortcut, right click it and allow/trust launching if KDE asks.
+
+to add a custom icon, right click the shortcut, open properties, click the icon, and choose your icon file.
