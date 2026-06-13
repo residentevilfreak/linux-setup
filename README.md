@@ -17,7 +17,7 @@ my personal scripts and notes for my linux installs.
     change into the directory
 
     ```bash
-    cd ~/Desktop/Setup
+    cd ~/Desktop/Setup/main
     ```
 
     then, run the desired script:
