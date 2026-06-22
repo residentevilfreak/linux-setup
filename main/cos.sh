@@ -27,7 +27,7 @@ sudo pacman -Syu --needed "${PACMAN_PKGS[@]}"
 flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
 flatpak install -y flathub com.obsproject.Studio com.spotify.Client org.kde.marknote com.github.tchx84.Flatseal app.zen_browser.zen
 
-paru -S --noconfirm music-presence-bin amneziavpn-bin betterbird-bin
+paru -S --noconfirm music-presence-bin amneziavpn-bin betterbird-bin keyresolve-git
 
 paru -S polychromatic
 
