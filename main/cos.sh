@@ -15,6 +15,7 @@ qbittorrent
 prismlauncher
 flatpak
 ntfs-3g
+sbctl
 gamemode
 protonup-qt
 protontricks
