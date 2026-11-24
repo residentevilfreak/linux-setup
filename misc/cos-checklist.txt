@@ -14,10 +14,11 @@ kde configuration
   [] pass `--disable-features=WaylandFractionalScaleV1` to all apps that have poor 95% scaling
   [] configure notification settings
 
-hardware (pc)
+hardware 
   [] adjust pointer speed
   [] configure power management
   [] disable touchpad
+  [] configure audio settings
 
 hardware (laptop)
   [] invert the touchpad scroll direction for natural scrolling
